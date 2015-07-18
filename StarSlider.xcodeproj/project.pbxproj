@@ -14,6 +14,7 @@
 		A5909EC41B58B3AB00172E5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5909EC31B58B3AB00172E5D /* Images.xcassets */; };
 		A5909EC71B58B3AB00172E5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5909EC51B58B3AB00172E5D /* LaunchScreen.xib */; };
 		A5909ED31B58B3AB00172E5D /* StarSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5909ED21B58B3AB00172E5D /* StarSliderTests.m */; };
+		A5909EDE1B58B3DE00172E5D /* StarSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5909EDD1B58B3DE00172E5D /* StarSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A5909ECC1B58B3AB00172E5D /* StarSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5909ED11B58B3AB00172E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5909ED21B58B3AB00172E5D /* StarSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarSliderTests.m; sourceTree = "<group>"; };
+		A5909EDC1B58B3DE00172E5D /* StarSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarSlider.h; sourceTree = "<group>"; };
+		A5909EDD1B58B3DE00172E5D /* StarSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A5909EC31B58B3AB00172E5D /* Images.xcassets */,
 				A5909EC51B58B3AB00172E5D /* LaunchScreen.xib */,
 				A5909EB61B58B3AB00172E5D /* Supporting Files */,
+				A5909EDC1B58B3DE00172E5D /* StarSlider.h */,
+				A5909EDD1B58B3DE00172E5D /* StarSlider.m */,
 			);
 			path = StarSlider;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5909EDE1B58B3DE00172E5D /* StarSlider.m in Sources */,
 				A5909EBF1B58B3AB00172E5D /* ViewController.m in Sources */,
 				A5909EBC1B58B3AB00172E5D /* AppDelegate.m in Sources */,
 				A5909EB91B58B3AB00172E5D /* main.m in Sources */,
